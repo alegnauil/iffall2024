@@ -1,0 +1,52 @@
+* {
+    padding: 2;
+    margin: 2;
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p { 
+    font-size:15px; 
+    color: #040f0f; 
+  }
+
+div {
+    text-align: left;
+    width: auto;
+    height:fit-content;
+    padding: 10px;
+    margin: 20px;
+    background:whitesmoke;
+    border: 4px solid #c9fbff;
+    border-radius:5px;
+}
+
+em{
+    color:#57737a;
+    font-size:15px;
+}
+
+.Venkman {
+    color: #3454d1;
+    font-weight: bold;
+}
+.Barrett { 
+    color:brown;
+    font-weight: bold;
+}
+.Ray { 
+    color: lightsalmon;
+    font-weight: bold;
+}
+.Mayor { 
+    color:#85bdbf;
+    font-weight: bold;
+}
+.Egon { 
+    color:cornflowerblue;
+    font-weight: bold;
+}
+.Winston { 
+    color:#efc69b;
+    font-weight: bold;
+}

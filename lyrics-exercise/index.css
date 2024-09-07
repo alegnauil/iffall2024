@@ -1,0 +1,31 @@
+* {
+    padding: 2;
+    margin: 2;
+    box-sizing: border-box;
+}
+
+p { 
+    color: whitesmoke; 
+    padding: 5px;
+    padding-bottom: 10px;
+    font: italic small-caps bold 18px/2 cursive;
+  }
+
+  .header{
+    background: url(fb00da1e3130d5bbf383fb585d362d4f.1000x1000x1.png) no-repeat top center fixed;
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+    color:white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ } 
+
+div {
+    width: auto;
+    height:fit-content;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+}

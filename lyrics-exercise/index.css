@@ -1,11 +1,6 @@
-* {
-    padding: 2;
-    margin: 2;
-    box-sizing: border-box;
-}
 
 p { 
-    color: whitesmoke; 
+    color: #aa1d1f; 
     padding: 5px;
     padding-bottom: 10px;
     font: italic small-caps bold 18px/2 cursive;
@@ -16,16 +11,22 @@ p {
     background-size: cover;
     height: 200px;
     width: 100%;
-    margin-top: 30px;
+    margin-bottom: 25px;
     text-align: center;
     color:white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
  } 
 
-div {
-    width: auto;
-    height:fit-content;
-    padding: 5px;
-    margin: 10px;
+.text-container{
+    width:auto;
+    height:400px;
+    position:sticky;
+    padding: 10px;
+    margin-top: 10px;
     text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    top:0;
+    bottom:0;
+    overflow-y:auto;
+    overflow-x:hidden;
 }

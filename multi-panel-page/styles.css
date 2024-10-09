@@ -3,18 +3,102 @@ html{
 }
 
 header{
-    padding:auto;
-    text-align: center;
-    background: url(AnasAbdin_\ Photo.gif) no-repeat center center; 
-    background-size: cover;
-    height: 500px;
+   margin: 0 auto;
+   padding-top:166px;
+   padding-bottom: 187px;
+   text-align: center;
+   background-image: url(AnasAbdin_\ Photo.gif); 
+   background-size: cover;
+   width: 100%;
  } 
 
  h1{
     font-size:60pt;
-    margin:0;
+    line-height: 1;
+    margin:0 0 15px 0;
  }
 
  h2{
     font-size:22.5pt;
+    margin:0;
+    line-height: 1em;
+    text-align: center;
+ }
+
+h3{
+   margin: 0;
+   font-size: 20px;
+}
+
+.section2{
+   padding-top:50px;
+   padding-bottom: 50px;
+   background-color:rgb(72, 88, 82);
+}
+
+.section3{
+   padding-top: 35px;
+   padding-bottom: 35px;
+}
+
+section>div{
+   width:960px;
+   margin: 0 auto;
+}
+
+div>h2{
+   font-size: 30pt;
+   margin-bottom: 39px;
+}
+
+p{
+   font-size: 18px;
+   margin:0 0 1em 0;
+   line-height: 1.39em;
+   font-weight: 400;
+}
+
+.grid{
+   width: 100%;
+}
+
+.col2{
+   padding:0;
+   display: block;
+   flex-wrap: wrap;
+}
+
+.col2>li{
+   display:block;
+   width: 50%;
+}
+
+.col{
+   padding:0;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.col li{
+   display: block;
+   height:150px;
+   width:212px;
+   margin:0 0 23px 0;
+}
+
+li p{
+   margin-top: 7px;
+}
+
+ .photograph2{
+   height: 300px;
+   width: 400px;
+   object-fit: cover;
+   float: right;
+   margin: 0 0 20px 40px;
+ }
+
+ .gridphoto{
+   width: 200px;
+   height: 150px;
  }

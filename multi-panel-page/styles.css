@@ -1,0 +1,20 @@
+html{
+    font-family: "Archivo Narrow", sans-serif;
+}
+
+header{
+    padding:auto;
+    text-align: center;
+    background: url(AnasAbdin_\ Photo.gif) no-repeat center center; 
+    background-size: cover;
+    height: 500px;
+ } 
+
+ h1{
+    font-size:60pt;
+    margin:0;
+ }
+
+ h2{
+    font-size:22.5pt;
+ }

@@ -1,0 +1,426 @@
+body {
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 40px;
+}
+
+h1 {
+     font-size: 30px;
+     margin-bottom: 40px;
+}
+
+.button_container {
+    border: 1px solid #ddd;
+    margin: 0 10px 10px 0;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+a#btn_spotify {
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 40px 0 40px;
+    background-color: #2ebd59;
+    border: 2px solid #2ebd59;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+a#btn_spotify:hover {
+    background-color: #fff;
+    border: 2px solid #000;
+    color: #000;
+}
+
+a#btn_amazon {
+    display: block;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 8px;
+    background-color: #232f3e;
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+    transition: all .2s;
+}
+
+a#btn_amazon:hover {
+    background-color: #fc9a18;
+}
+
+a#btn_twitter {
+    display: inline-block;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 105px;
+    padding: 10px 30px 0 30px;
+    background-color: #56cdf1;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a#btn_twitter:hover {
+
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2ebfec+0,28a5cb+100 */
+    background: rgb(46,191,236); /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  rgba(46,191,236,1) 0%, rgba(40,165,203,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  rgba(46,191,236,1) 0%,rgba(40,165,203,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  rgba(46,191,236,1) 0%,rgba(40,165,203,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+a#btn_indiegogo {
+    display: inline-block;
+    position: relative;
+    margin:auto;
+    margin-top: 100px;
+    padding: 8px 16px;
+    background-color: #fff;
+    color: #eb1478;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: -2px;
+    transition: all .2s;
+}
+
+a#btn_indiegogo:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #eb1478;
+    transition: all .5s;
+}
+
+a#btn_indiegogo:hover {
+    color: #fff;
+}
+
+a#btn_indiegogo:hover:before {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+a#btn_indiegogo span {
+    position: relative;
+    z-index: 10;
+}
+
+a#btn_cartoonnetwork{
+    display: block;
+    position:relative;
+    margin:auto;
+    margin-top: 80px;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    font-family: "Luckiest Guy", cursive;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: all 0.3s ease;
+}
+
+a#btn_cartoonnetwork span{
+    background-color: white;
+    color: black;
+    width: fit-content;
+    padding-left: 2px;
+    margin: 0 4px;
+}
+
+@keyframes blink{
+    0%, 100% {opacity: 1;}
+    30% {opacity: 0.7;}
+    70% {opacity: 0;}
+}
+
+a#btn_cartoonnetwork:hover span{
+    animation: blink 0.3s ease-in-out 2;
+}
+
+a#btn_ideo{
+    display: inline-block;
+    position: relative;
+    margin:auto;
+    margin-top: 100px;
+    padding: 8px 5px 3px;
+    background-color: #fff;
+    color: orangered;
+    font-family: "Bentham", serif;
+    font-size: 50px;
+    letter-spacing: 0.75px;
+    line-height: 1;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition-delay: 0.2s, 0.2s;
+}
+
+a#btn_ideo::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 0;
+    background-color: cyan;
+    transition: width 0.3s ease;
+}
+
+a#btn_ideo:hover::after{
+    width: 100%;
+}
+
+a#btn_moo {
+    display: flex;
+    height: 150px;
+    width: 150px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 50px;
+    background-color: rgb(18, 46, 29);
+    border: 2px solid rgb(18, 46, 29);
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+a#btn_moo:hover {
+    border-radius: 12.5%;
+    border: 2px solid rgb(18, 46, 29);
+}
+
+a#btn_tesla{
+    display: inline-block;
+    height: 60px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 100px;
+    padding: 30px 15px 0 20px;
+    background-color: grey;
+    color: #fff;
+    font-size: 30px;
+    letter-spacing: 5px;
+    font-family: "owners-text", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all .3s ease;
+}
+
+a#btn_tesla:hover{
+    background-color: #cc0000;
+    padding: 10px 15px 0 20px;
+}
+
+a#btn_pastaria{
+    display: inline-block;
+    position: relative;
+    width: fit-content;
+    font-family: "Bona Nova SC", serif;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 100px;
+    color: rgb(240, 73, 36);
+    font-size: 40px;
+    letter-spacing: 3px;
+    font-weight: 400;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    text-align: center;
+    transition-delay: 0.1s, 0.2s;
+}
+
+a#btn_pastaria:hover {
+    color: transparent;
+}
+
+a#btn_pastaria::after {
+    content: "Deli & Wine";
+    letter-spacing: normal;
+    padding-top: 2px;
+    font-size: 35px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    left: 0;
+    color: rgb(6, 64, 71);
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+}
+
+a#btn_pastaria:hover::after {
+    opacity: 1;
+}
+
+a#btn_color {
+    display: block;
+    width: 150px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 70px;
+    padding: 10px 5px 10px;
+    color: black;
+    text-align: center;
+    font-size: 80px;
+    transition-delay: 0.2s, 0.1s;
+    transition: color 0.3s ease-in-out, background-color 0.3s ease;
+}
+
+a#btn_color:hover {
+    background-color: black;
+}
+
+a#btn_color:hover i{
+    background: linear-gradient(90deg, #ffadad, #ffd6a5, #fdffb6, #caffbf, #9bf6ff, #a0c4ff, #bdb2ff, #ffc6ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: background 0.3s ease;
+}
+
+a#btn_jogger {
+    display: block;
+    width: 100px;
+    box-sizing: border-box;
+    border-radius: 4%;
+    border: 4px solid rgb(93, 96, 55);
+    margin: auto;
+    margin-top: 80px;
+    padding: 10px 0 10px 0;
+    color: rgb(93, 96, 55);
+    text-align: center;
+    font-size: 50px;
+    transition: all 0.2s ease;
+}
+
+a#btn_jogger:hover {
+    color: rgb(168, 164, 118);
+    border-color: rgb(168, 164, 118);
+    background-color: whitesmoke;
+}
+
+a#btn_bissingers{
+    font-family: "Kings", cursive;
+    text-decoration: none;
+    display: block;
+    box-sizing: border-box;
+    border: 2px solid rgb(192, 150, 32);
+    background-color: rgb(192, 150, 32);
+    margin: auto;
+    margin-top: 30px;
+    padding: 3px;
+    color: beige;
+    text-align: center;
+    font-size: 45px;
+    width: 200px; 
+    height: 200px;
+    transition: all 0.2s;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a#btn_bissingers:hover span {
+    display: inline-block;
+    transform: rotate(0deg);
+    position: relative;
+    z-index: 1;
+}
+
+a#btn_bissingers:hover{
+    background-color: rgb(64, 46, 32);
+    border-color: rgb(64, 46, 32);
+    border-radius: 50% 25%;
+    transform: rotate(-15deg);
+}
+
+a#btn_samsung{
+    display: inline-block;
+    position: relative;
+    width: fit-content;
+    margin:auto;
+    margin-top: 100px;
+    padding: 5px;
+    color: black;
+    font-family: "Tiny5", sans-serif;
+    font-size: 40px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a#btn_samsung span {
+    width: fit-content;
+    letter-spacing: 0px;
+    transition: color 0.3s ease;
+}
+
+a#btn_samsung:hover span:nth-child(1) { color: #0077C7; }
+a#btn_samsung:hover span:nth-child(2) { color: #01B3E0; } 
+a#btn_samsung:hover span:nth-child(3) { color: #00C3B2; }
+a#btn_samsung:hover span:nth-child(4) { color: #96D552; } 
+a#btn_samsung:hover span:nth-child(5) { color: #FEB447; } 
+a#btn_samsung:hover span:nth-child(6) { color: #FA4731; } 
+a#btn_samsung:hover span:nth-child(7) { color: #8092DE; } 
+
+a#btn_lyft {
+    display: block;
+    width: 100px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 80px;
+    padding: 10px 0;
+    color: #ff00bf;
+    text-align: center;
+    font-size: 70px;
+}
+
+a#btn_lyft:hover{
+    color: #352384;
+}

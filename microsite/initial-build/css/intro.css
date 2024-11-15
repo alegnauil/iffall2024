@@ -1,0 +1,33 @@
+html{
+    font-family: "Tiny5", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16pt;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+body{
+    background: url("/pic/sapce.jpeg") no-repeat;
+    background-size: cover;
+}
+
+header{
+    position: relative;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.travel_btn{
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    font-family: "Tiny5", serif;
+    cursor: pointer;
+    border: none;
+}
+

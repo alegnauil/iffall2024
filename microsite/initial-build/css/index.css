@@ -9,7 +9,8 @@ html{
 }
 
 body{
-    background: url("/pic/sapce.jpeg") no-repeat;
+    background: url("/microsite/initial-build/pic/sapce.jpeg") no-repeat;
+    height: 100%;
     background-size: cover;
 }
 
@@ -48,7 +49,7 @@ footer{
 h1{
     font-family: "Jacquard 24", serif;
     font-weight: 400;
-    font-size: 9rem;
+    font-size: 5rem;
     color: white;
     margin: 10rem 0 0 0;
     word-wrap: break-word;

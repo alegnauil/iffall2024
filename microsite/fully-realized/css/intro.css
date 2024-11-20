@@ -1,0 +1,23 @@
+
+body{
+    background-size: cover;
+    height: 100%;
+    margin: 0;
+}
+#bg_container{
+    background-image: url(../pic/Intro_bg.png);
+    /* height:3662px; */
+    /* width: 1512px; */
+    height:100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+	background-position:center;
+	background-attachment: fixed;
+}
+
+.active {
+    background-color: #000;
+}
+
+#nav-placeholder .active a{color:blue}
+
